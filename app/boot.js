@@ -1,4 +1,6 @@
-System.register(['angular2/platform/browser', './index-component', './menu-component', './lista-filiados-component'], function(exports_1) {
+System.register(['angular2/platform/browser', './index-component', './menu-component', './lista-filiados-component'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
     var browser_1, index_component_1, menu_component_1, lista_filiados_component_1;
     return {
         setters:[

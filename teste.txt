@@ -1,0 +1,84 @@
+
+> angular2-aula1@1.0.0 start C:\Users\bruno.casarotti\Desktop\caneladasangular
+> concurrently "npm run tsc:w" "npm run lite" 
+
+[0] 
+[0] > angular2-aula1@1.0.0 tsc:w C:\Users\bruno.casarotti\Desktop\caneladasangular
+[0] > tsc -w
+[0] 
+[1] 
+[1] > angular2-aula1@1.0.0 lite C:\Users\bruno.casarotti\Desktop\caneladasangular
+[1] > lite-server
+[1] 
+[0] node_modules/angular2/src/facade/promise.d.ts(1,10): error TS2661: Cannot re-export name that is not defined in the module.
+[0] app/boot.ts(4,29): error TS2307: Cannot find module './lista-filiados-component'.
+[0] app/lista-filiado-component.ts(6,17): error TS2304: Cannot find name 'ClienteService'.
+[0] app/lista-filiado-component.ts(10,41): error TS2304: Cannot find name 'ClienteService'.
+[0] app/lista-filiado-component.ts(12,14): error TS2304: Cannot find name 'Cliente'.
+[0] 12:53:13 - Compilation complete. Watching for file changes.
+[1] Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-server defaults...
+[1] ** browser-sync config **
+[1] { injectChanges: false,
+[1]   files: [ './**/*.{html,htm,css,js}' ],
+[1]   watchOptions: { ignored: 'node_modules' },
+[1]   server: { baseDir: './', middleware: [ [Function], [Function] ] } }
+[1] [90m16.07.20 12:53:17[0m [33m404[0m [35mGET[0m [90m/index.php[0m
+[1] [90m16.07.20 12:53:17[0m [33m404[0m [35mGET[0m [90m/favicon.ico[0m
+[1] [90m16.07.20 12:53:17[0m [33m404[0m [35mGET[0m [90m/favicon.ico[0m
+[1] [BS] Access URLs:
+[1]  --------------------------------------
+[1]        Local: http://localhost:3000
+[1]     External: http://192.168.86.52:3000
+[1]  --------------------------------------
+[1]           UI: http://localhost:3001
+[1]  UI External: http://192.168.86.52:3001
+[1]  --------------------------------------
+[1] [BS] Serving files from: ./
+[1] [BS] Watching files...
+[1] [90m16.07.20 12:53:18[0m [36m304[0m [35mGET[0m [90m/index.html[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/bs3/css/bootstrap.min.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery-ui/jquery-ui-1.10.1.custom.min.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/bootstrap-reset.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/font-awesome/css/font-awesome.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-fileupload/bootstrap-fileupload.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-datepicker/css/datepicker.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-datetimepicker/css/datetimepicker.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/style.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/style-responsive.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/table-responsive.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/iCheck/skins/square/_all.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/morris.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2/bundles/angular2-polyfills.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/node_modules/systemjs/dist/system.src.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/node_modules/rxjs/bundles/Rx.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/node_modules/angular2/bundles/angular2.dev.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery-ui/jquery-ui-1.10.1.custom.min.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/bs3/js/bootstrap.min.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.dcjqaccordion.2.7.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.scrollTo.min.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jQuery-slimScroll-1.3.0/jquery.slimscroll.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.nicescroll.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-fileupload/bootstrap-fileupload.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/iCheck/jquery.icheck.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/skycons/skycons.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.scrollTo/jquery.scrollTo.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-datepicker/js/bootstrap-datepicker.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/jquery.mask.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/pre_submit.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/advanced-form.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/scripts.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/js/icheck-init.js[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/css/bucket-ico-fonts.css[0m
+[1] [90m16.07.20 12:53:19[0m [36m304[0m [35mGET[0m [90m/images/favicon.png[0m
+[1] [90m16.07.20 12:53:20[0m [36m304[0m [35mGET[0m [90m/images/favicon.png[0m
+[1] [90m16.07.20 12:53:20[0m [36m304[0m [35mGET[0m [90m/images/logo-sindasp.png[0m
+[1] [90m16.07.20 12:53:20[0m [32m200[0m [35mGET[0m [90m/app/boot.js[0m
+[1] [90m16.07.20 12:53:20[0m [36m304[0m [35mGET[0m [90m/app/lista-filiados-component.js[0m
+[1] [90m16.07.20 12:53:20[0m [32m200[0m [35mGET[0m [90m/app/index-component.js[0m
+[1] [90m16.07.20 12:53:20[0m [32m200[0m [35mGET[0m [90m/app/menu-component.js[0m
+[1] [90m16.07.20 12:53:21[0m [36m304[0m [35mGET[0m [90m/html/main.html[0m
+[1] [90m16.07.20 12:53:21[0m [36m304[0m [35mGET[0m [90m/html/menu.html[0m
+Deseja finalizar o arquivo em lotes (S/N)? Deseja finalizar o arquivo em lotes (S/N)? 
