@@ -1,0 +1,71 @@
+.navbar-header {
+    width: 225px;
+	height: 50px;
+}
+.navbar-brand{
+	max-width: 100%;
+    padding: 0px !important;
+    height: 30px;
+    margin: 10px;
+    margin-left: 11%;
+}
+.side-nav{
+	background-color: #F8F8F8;
+}
+
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+.side-nav li a:hover, .side-nav li a:focus {
+    outline: medium none;   
+}
+
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus {
+    color: #FFF;
+    background-color: #EEEEEE !important;
+}
+
+.side-nav li a:hover, .side-nav li a:focus {
+    outline: medium none;
+    background-color: #EEEEEE !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #337AB7;   
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #337AB7;
+}
+
+.side-nav > li > ul > li > a {   
+    color: #337AB7;
+}
+
+.dropdown-menu > li > a {   
+    color: #337AB7;
+}
+
+.top-nav > li > a {   
+    color: #337AB7;   
+}
+
+.top-nav > li > a:hover, .top-nav > li > a:focus, .top-nav > .open > a, .top-nav > .open > a:hover, .top-nav > .open > a:focus {
+    color: #337AB7;  
+    background-color: #EEE !important;
+}
+
+.navbar-nav > li {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+body {    
+    background-color: #F5F5F5;
+	color: #777;
+}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    color: #000;
+}
+
